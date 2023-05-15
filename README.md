@@ -5,7 +5,7 @@ Winning Strat for Tic-Tac-Toe:
 If player 1 (You) starts first:
 Three Corner Strat;
 
-- If you start first, go for any corners and from there, you can go for a Triangle-L shape, X shape or Upside down T shape (Plus shape and Askew shape are nearly impossible to win and are kinda risky plays so precede with caution)
+- If you start first, go for any corners and from there, you can go for a Triangle-L shape, X shape, Upside down T shape or Askew shape if you're feeling risky (Plus shapes are nearly impossible to win and are kinda risky plays so precede with caution)
 
 If player 2 (Opp) starts first:
 
