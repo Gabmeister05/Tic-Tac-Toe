@@ -10,3 +10,5 @@ Three Corner Strat;
 If player 2 (Opp) starts first:
 
 - Apply the Three Corner Strat and hope to get a tie
+
+Basic stratgy however there are endless possibilities for each positions on the board
