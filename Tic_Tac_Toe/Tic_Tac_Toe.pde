@@ -1,4 +1,6 @@
 //Global Variables
+Boolean ;
+int ;
 //
 void setup() {
 } //End setup
