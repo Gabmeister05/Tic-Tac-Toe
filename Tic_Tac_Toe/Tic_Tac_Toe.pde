@@ -1,6 +1,5 @@
 //Global Variables
 Boolean xPlaceTrue=false, oPlaceTrue=false;
-float x=0.0, o=0.0;
 float displayWidth, displayHeight;
 //
 void setup() {
