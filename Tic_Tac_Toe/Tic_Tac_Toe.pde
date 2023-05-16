@@ -7,9 +7,9 @@ void setup() {
   fullScreen();
   //size();
   int appWidth = width;
-  int appHeight = width;
-  displayWidth = width;
-  displayHeight = height;
+  int appHeight = height;
+  displayWidth = width*11/10;
+  displayHeight = height*11/10;
   //
   Population();
   println (width, height, displayWidth, displayHeight);
