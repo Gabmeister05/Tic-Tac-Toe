@@ -15,6 +15,7 @@ void setup() {
 //
 void draw() {
   background(black);
+  println(mouseX, mouseY);
 } //End draw
 //
 void keyPressed() {
