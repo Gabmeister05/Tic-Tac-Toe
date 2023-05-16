@@ -21,6 +21,8 @@ void Population() {
   } else {
     quitButtonColor = purple;
   }
+  //
+  if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
 } //End Population
 //
 //End SubProgram
