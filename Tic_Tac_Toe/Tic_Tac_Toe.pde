@@ -1,10 +1,11 @@
 //Global Variables
 Boolean xPlaceTrue=false, oPlaceTrue=false;
-float displayWidth, displayHeight;
+float displayWidth=0, displayHeight=0;
+color black=#000000;
 //
 void setup() {
   fullScreen();
-  //display();
+  //size();
   displayWidth = width;
   displayHeight = height;
   //
@@ -13,15 +14,13 @@ void setup() {
 } //End setup
 //
 void draw() {
-  
+  background(black);
 } //End draw
 //
 void keyPressed() {
-  
 } //End keyPressed
 //
 void mousePressed() {
-  
 } //End mousePressed
 //
 //End MAIN Program
