@@ -1,13 +1,16 @@
 //Global Variables
-Boolean ;
-int ;
-int displayWidth=0.0, displayHeight=0.0;
+Boolean xPlaceTrue=false, oPlaceTrue=false;
+int mismatch x=0.0, o=0.0;
+float displayWidth, displayHeight;
 //
 void setup() {
   fullScreen();
   //display();
   displayWidth = width;
   displayHeight = height;
+  //
+  population();
+  //
 } //End setup
 //
 void draw() {
