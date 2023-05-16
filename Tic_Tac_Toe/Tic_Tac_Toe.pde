@@ -16,6 +16,7 @@ void setup() {
 void draw() {
   background(black);
   println(mouseX, mouseY);
+  quitButton();
 } //End draw
 //
 void keyPressed() {
