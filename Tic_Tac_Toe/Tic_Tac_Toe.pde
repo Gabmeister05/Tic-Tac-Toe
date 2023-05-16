@@ -1,6 +1,6 @@
 //Global Variables
 Boolean xPlaceTrue=false, oPlaceTrue=false;
-int mismatch x=0.0, o=0.0;
+float x=0.0, o=0.0;
 float displayWidth, displayHeight;
 //
 void setup() {
@@ -9,7 +9,7 @@ void setup() {
   displayWidth = width;
   displayHeight = height;
   //
-  population();
+  Population();
   //
 } //End setup
 //
