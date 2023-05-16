@@ -6,10 +6,25 @@ color black=#000000;
 void setup() {
   fullScreen();
   //size();
+  int appWidth = width;
+  int appHeight = width;
   displayWidth = width;
   displayHeight = height;
   //
   Population();
+  println (width, height, displayWidth, displayHeight);
+  if ( width >= displayWidth || height >= displayHeight )
+  {
+    appWidth = 0;
+    appHeight = 0;
+    println("Display is too small for App");
+    exit();
+  } else
+  {
+    appWidth = width;
+    appHeight = height;
+  }
+  println("App Geometry isl", "\tApp Width:", appWidth, "\t\tApp Height", appHeight);
   //
 } //End setup
 //
