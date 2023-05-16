@@ -6,6 +6,7 @@ void Population() {
   float centerX = displayWidth * 1/2;
   float centerY = displayHeight * 1/2;
   //
+  fill(quitButtonColor);
   rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
   quitButtonX = centerX - ( displayWidth * 1/4 );
   quitButtonY = centerY - ( displayHeight * 1/4 );
