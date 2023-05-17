@@ -8,10 +8,10 @@ void Population() {
   //
   fill(quitButtonColor);
   rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
-  quitButtonX = centerX - ( displayWidth * 1/4 );
-  quitButtonY = centerY - ( displayHeight * 1/4 );
-  quitButtonWidth = displayWidth * 1/2;
-  quitButtonHeight = displayHeight * 1/2;
+  quitButtonX = centerX - ( displayWidth * 1/10 );
+  quitButtonY = centerY - ( displayHeight * 1/8 );
+  quitButtonWidth = displayWidth * 1/3;
+  quitButtonHeight = displayHeight * 1/3;
   //
   if ( key=='Q' || key=='q' ) exit();
   if ( keyCode == ESC ) exit();

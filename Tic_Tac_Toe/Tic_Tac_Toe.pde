@@ -1,13 +1,14 @@
 //Global Variables
 Boolean xPlaceTrue=false, oPlaceTrue=false;
 float displayWidth=0, displayHeight=0;
+int appWidth, appHeight;
 color black=#000000;
 //
 void setup() {
   fullScreen();
   size(1680, 1050);
-  int appWidth = width;
-  int appHeight = height;
+  appWidth = width;
+  appHeight = height;
   displayWidth = width*11/10;
   displayHeight = height*11/10;
   //
