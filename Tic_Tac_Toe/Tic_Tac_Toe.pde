@@ -8,8 +8,8 @@ void setup() {
   fullScreen();
   appWidth = width;
   appHeight = height;
-  displayWidth = appWidth*11/10;
-  displayHeight = appHeight*11/10;
+  displayWidth = appWidth*21/20;
+  displayHeight = appHeight*21/20;
   //
   println (width, height, displayWidth, displayHeight);
   if ( width >= displayWidth || height >= displayHeight )
