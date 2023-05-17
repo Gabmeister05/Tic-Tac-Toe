@@ -6,10 +6,10 @@ color black=#000000;
 //
 void setup() {
   fullScreen();
-  displayWidth = width;
-  displayHeight = height;
-  appWidth = displayWidth*11/10;
-  appHeight = displayHeight*11/10;
+  appWidth = width;
+  appHeight = height;
+  displayWidth = appWidth*11/10;
+  displayHeight = appHeight*11/10;
   //
   println (width, height, displayWidth, displayHeight);
   if ( width >= displayWidth || height >= displayHeight )
