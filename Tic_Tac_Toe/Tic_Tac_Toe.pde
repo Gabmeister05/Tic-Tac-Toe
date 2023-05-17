@@ -1,7 +1,7 @@
 //Global Variables
 Boolean xPlaceTrue=false, oPlaceTrue=false;
 float displayWidth=0, displayHeight=0;
-float appWidth, appHeight;
+float appWidth=0, appHeight=0;
 color black=#000000;
 //
 void setup() {
