@@ -10,7 +10,7 @@ void Population() {
   rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
   quitButtonX = centerX - ( displayWidth * 1/10 );
   quitButtonY = centerY - ( displayHeight * 1/8 );
-  quitButtonWidth = displayWidth * 1/3;
+  quitButtonWidth = displayWidth * 1/6;
   quitButtonHeight = displayHeight * 1/3;
   //
   if ( key=='Q' || key=='q' ) exit();
