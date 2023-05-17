@@ -12,7 +12,6 @@ void setup() {
   displayWidth = width*11/10;
   displayHeight = height*11/10;
   //
-  Population();
   println (width, height, displayWidth, displayHeight);
   if ( width >= displayWidth || height >= displayHeight )
   {

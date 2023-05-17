@@ -8,7 +8,7 @@ float X1, Y1, X2, Y2, X3, Y3, X4, Y4;
 //
 void quitButton() {
   //
-  fill(quitButtonColor);q
+  fill(quitButtonColor);
   rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
   quitButtonX = centerX - ( displayWidth * 1/10 );
   quitButtonY = centerY - ( displayHeight * 1/8 );
