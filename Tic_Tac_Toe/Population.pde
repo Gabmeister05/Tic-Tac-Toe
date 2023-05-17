@@ -2,8 +2,9 @@
 Boolean quitOn=false;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 color quitButtonColor, yellow=#FFFF00, purple=#FF00FF;
-  float centerX = displayWidth * 1/2;
-  float centerY = displayHeight * 1/2;
+float centerX = displayWidth * 1/2;
+float centerY = displayHeight * 1/2;
+float X1, Y1, X2, Y2, X3, Y3, X4, Y4;
 //
 void quitButton() {
   //
@@ -27,5 +28,8 @@ void quitButton() {
 } //End Population
 //
 void tictactoe() {
+  //
+  line(X1, Y1, X2, Y2);
+  line(X3, Y3, X4, Y4);
 } //End tictactoe
 //End SubProgram
