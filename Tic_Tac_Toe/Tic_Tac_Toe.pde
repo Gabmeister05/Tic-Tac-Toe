@@ -5,7 +5,7 @@ color black=#000000;
 //
 void setup() {
   fullScreen();
-  //size();
+  size(1680, 1050);
   int appWidth = width;
   int appHeight = height;
   displayWidth = width*11/10;
