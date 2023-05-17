@@ -1,4 +1,5 @@
 //Global Variables
+Boolean quitOn=false;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 color quitButtonColor, yellow=#FFFF00, purple=#FF00FF;
 //
@@ -25,4 +26,5 @@ void Population() {
   if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
 } //End Population
 //
+void tictactoe() {} //End tictactoe
 //End SubProgram
