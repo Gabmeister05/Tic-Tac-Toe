@@ -1,27 +1,26 @@
 //Global Variables
 Boolean xPlaceTrue=false, oPlaceTrue=false;
-float appWidth=0, appHeight=0;
+float displayWidth=0, displayHeight=0;
 color black=#000000;
 //
 void setup() {
   fullScreen();
-  size(1600, 1000);
-  appWidth = displayWidth*11/10;
-  appHeight = displayHeight*11/10;
+  displayWidth = width;
+  displayHeight = height;
   //
   println (width, height, displayWidth, displayHeight);
   if ( width >= displayWidth || height >= displayHeight )
   {
-    appWidth = 0;
-    appHeight = 0;
+    displayWidth = 0;
+    displayHeight = 0;
     println("Display is too small for App");
     exit();
   } else
   {
-    appWidth = width;
-    appHeight = height;
+    displayWidth = width*11/10;
+    displayHeight = height*11/10;
   }
-  println("App Geometry is", "\tApp Width:", appWidth, "\t\tApp Height", appHeight);
+  println("App Geometry is", "\tApp Width:", displayWidth, "\t\tApp Height", displayHeight);
   //
 } //End setup
 //
