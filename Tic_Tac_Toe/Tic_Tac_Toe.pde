@@ -32,7 +32,7 @@ void setup() {
 void draw() {
   background(black);
   println(mouseX, mouseY);
-  Population();
+  quitButton();
 } //End draw
 //
 void keyPressed() {

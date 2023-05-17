@@ -3,7 +3,7 @@ Boolean quitOn=false;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 color quitButtonColor, yellow=#FFFF00, purple=#FF00FF;
 //
-void Population() {
+void quitButton() {
   float centerX = displayWidth * 1/2;
   float centerY = displayHeight * 1/2;
   //
