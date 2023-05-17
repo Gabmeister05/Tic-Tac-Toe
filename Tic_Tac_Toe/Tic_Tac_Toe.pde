@@ -24,7 +24,7 @@ void setup() {
     appWidth = width;
     appHeight = height;
   }
-  println("App Geometry isl", "\tApp Width:", appWidth, "\t\tApp Height", appHeight);
+  println("App Geometry is", "\tApp Width:", appWidth, "\t\tApp Height", appHeight);
   //
 } //End setup
 //
