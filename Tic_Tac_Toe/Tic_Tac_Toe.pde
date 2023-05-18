@@ -11,6 +11,7 @@ void setup() {
   displayWidth = appWidth*21/20;
   displayHeight = appHeight*21/20;
   //
+  quitButton(); 
   println (width, height, displayWidth, displayHeight);
   if ( width >= displayWidth || height >= displayHeight )
   {
@@ -23,7 +24,7 @@ void setup() {
     displayWidth = width;
     displayHeight = height;
   }
-  println("App Geometry is", "\tApp Width:", displayWidth, "\t\tApp Height", displayHeight);
+  println("App Geometry is", "\tDisplay Width:", displayWidth, "\t\tDisplay Height", displayHeight);
   //
 } //End setup
 //
