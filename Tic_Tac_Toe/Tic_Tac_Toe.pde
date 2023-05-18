@@ -11,7 +11,7 @@ void setup() {
   displayWidth = appWidth*21/20;
   displayHeight = appHeight*21/20;
   //
-  quitButton(); 
+  Population(); 
   println (width, height, displayWidth, displayHeight);
   if ( width >= displayWidth || height >= displayHeight )
   {
