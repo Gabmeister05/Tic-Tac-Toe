@@ -31,7 +31,8 @@ void setup() {
 void draw() {
   background(black);
   println(mouseX, mouseY);
-  quitButton();
+  drawquitButton();
+  drawTicTacToe();
 } //End draw
 //
 void keyPressed() {
