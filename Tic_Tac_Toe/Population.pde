@@ -8,7 +8,7 @@ float X1, Y1, X2, Y2, X3, Y3, X4, Y4;
 //
 void Population() {
   //
-  void quitButton() {
+  void draw quitButton() {
     //
     fill(quitButtonColor);
     rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
@@ -29,7 +29,7 @@ void Population() {
   if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
   //
 } //End quitButton
-  void tictactoe() {
+  void draw tictactoe() {
     //
     line(X1, Y1, X2, Y2);
     line(X3, Y3, X4, Y4);
