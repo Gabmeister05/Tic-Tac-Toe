@@ -25,7 +25,7 @@ void Population() {
   //
 } //End Population
 //
-void drawquitButton() {
+void drawQuitButton() {
   //
   fill(quitButtonColor);
   rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
