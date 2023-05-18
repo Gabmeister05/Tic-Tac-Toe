@@ -33,6 +33,15 @@ void Population() {
     //
     line(X1, Y1, X2, Y2);
     line(X3, Y3, X4, Y4);
+    X1 = ;
+    Y1 = ;
+    X2 = ;
+    Y2 = ;
+    //
+    X3 = ;
+    Y3 = ;
+    X4 = ;
+    Y4 = ;
 } //End tictactoe
 } //End Population
 //
