@@ -15,8 +15,8 @@ void setup() {
   println (width, height, displayWidth, displayHeight);
   if ( width >= displayWidth || height >= displayHeight )
   {
-    displayWidth = 0;
-    displayHeight = 0;
+    displayWidth = 0.0;
+    displayHeight = 0.0;
     println("Display is too small for App");
     exit();
   } else
