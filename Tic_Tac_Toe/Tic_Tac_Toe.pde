@@ -21,8 +21,8 @@ void setup() {
     exit();
   } else
   {
-    displayWidth = width;
-    displayHeight = height;
+    displayWidth = appWidth;
+    displayHeight = appHeight;
   }
   println("App Geometry is", "\tDisplay Width:", displayWidth, "\t\tDisplay Height", displayHeight);
   //
