@@ -5,6 +5,7 @@ color quitButtonColor, yellow=#FFFF00, purple=#FF00FF;
 float centerX = appWidth * 1/2;
 float centerY = appHeight * 1/2;
 float X1, Y1, X2, Y2, X3, Y3, X4, Y4;
+float X5, Y5, X6, Y6, X7, Y7, X8, Y8;
 //
 void Population() {
   //
@@ -47,6 +48,8 @@ void drawTicTacToe() {
   //
   line(X1, Y1, X2, Y2);
   line(X3, Y3, X4, Y4);
+  line(X5, Y5, X6, Y6);
+  line(X7, Y7, X8, Y8);
 } //End tictactoe
 //
 //End SubProgram
