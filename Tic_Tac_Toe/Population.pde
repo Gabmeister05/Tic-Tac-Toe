@@ -19,10 +19,20 @@ void Population() {
   X2 = centerX + 1/2;
   Y2 = centerY - 1/2;
   //
-  X3 = centerX - appWidth;
+  X3 = X1 - appWidth;
   Y3 = Y1;
   X4 = centerX + appWidth;
   Y4 = Y2;
+  //
+  X5 = X1 + appWidth; 
+  Y5 = X2 - appWidth; 
+  X6 = X3; 
+  Y6 = Y2; 
+  //
+  X7 = X5; 
+  Y7 = Y5 - appWidth; 
+  X8 = X6; 
+  Y8 = Y7; 
   //
 } //End Population
 //
