@@ -11,11 +11,18 @@ void setup() {
   appHeight = height*21/20;
   displayWidth = appWidth*3/2;
   displayHeight = appHeight*3/2;
+  if ( width==1200*11/10 || height==1100*11/10 ) {
+    draw();
+    size(1200*11/10, 1100*11/10); 
+  } else {
+    println("Display is nonexistent");
+    exit();
+  }
   //
   drawQuitButton();
   drawTicTacToe();
   //
-  Population(); 
+  Population();
   println (width, height, displayWidth, displayHeight);
   if ( width >= displayWidth || height >= displayHeight )
   {
