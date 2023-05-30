@@ -24,15 +24,15 @@ void Population() {
   X4 = centerX + appWidth;
   Y4 = Y2;
   //
-  X5 = X1 + appWidth; 
-  Y5 = X2 - appWidth; 
-  X6 = X3; 
-  Y6 = Y2; 
+  X5 = X1 + appWidth;
+  Y5 = X2 - appWidth;
+  X6 = X3;
+  Y6 = Y2;
   //
-  X7 = X5; 
-  Y7 = Y5 - appWidth; 
-  X8 = X6; 
-  Y8 = Y7; 
+  X7 = X5;
+  Y7 = Y5 - appWidth;
+  X8 = X6;
+  Y8 = Y7;
   //
 } //End Population
 //
@@ -60,6 +60,12 @@ void drawTicTacToe() {
   line(X3, Y3, X4, Y4);
   line(X5, Y5, X6, Y6);
   line(X7, Y7, X8, Y8);
+  //
+  if ( xPlaceTrue==true || oPlaceTrue==false ) {
+    fill(purple);
+  } else {
+    fill(yellow);
+  }
 } //End tictactoe
 //
 //End SubProgram
