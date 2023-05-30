@@ -11,9 +11,9 @@ void setup() {
   appHeight = height*21/20;
   displayWidth = appWidth*3/2;
   displayHeight = appHeight*3/2;
-  if ( width==1200*11/10 || height==1100*11/10 ) {
+  if ( width >= 1200*11/10 || height >= 1100*11/10 ) {
     draw();
-    size(1200*11/10, 1100*11/10); 
+    size(1200, 1100); 
   } else {
     println("Display is nonexistent");
     exit();
