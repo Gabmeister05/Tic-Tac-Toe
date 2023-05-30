@@ -66,6 +66,13 @@ void drawTicTacToe() {
   } else {
     fill(yellow);
   }
+  //
+  if ( xPlaceTrue==false || oPlaceTrue==true ) {
+    fill(yellow);
+  } else {
+    fill(purple);
+  }
+  //
 } //End tictactoe
 //
 //End SubProgram
