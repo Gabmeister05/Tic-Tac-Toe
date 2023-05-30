@@ -6,10 +6,10 @@ color black=#000000;
 //
 void setup() {
   fullScreen();
-  appWidth = width;
-  appHeight = height;
-  displayWidth = appWidth*21/20;
-  displayHeight = appHeight*21/20;
+  appWidth = width*21/20;
+  appHeight = height*21/20;
+  displayWidth = appWidth;
+  displayHeight = appHeight;
   //
   drawQuitButton();
   drawTicTacToe();
