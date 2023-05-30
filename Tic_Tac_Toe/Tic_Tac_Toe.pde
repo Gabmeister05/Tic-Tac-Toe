@@ -5,11 +5,12 @@ float appWidth=0, appHeight=0;
 color black=#000000;
 //
 void setup() {
-  fullScreen();
+  //fullScreen();
+  size(1200, 1100);
   appWidth = width*21/20;
   appHeight = height*21/20;
-  displayWidth = appWidth;
-  displayHeight = appHeight;
+  displayWidth = appWidth*3/2;
+  displayHeight = appHeight*3/2;
   //
   drawQuitButton();
   drawTicTacToe();
