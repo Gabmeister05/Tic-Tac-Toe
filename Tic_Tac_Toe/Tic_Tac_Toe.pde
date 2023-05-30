@@ -13,6 +13,9 @@ void setup() {
   displayHeight = appHeight;
   if ( width == 1320 || height == 1210 ) {
     draw();
+  } else if ( width >= 1320 || height >= 1210 ) {
+    println("Display is nonexistent");
+    exit();
   } else {
     println("Display is nonexistent");
     exit();
