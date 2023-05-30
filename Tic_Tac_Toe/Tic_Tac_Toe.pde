@@ -6,14 +6,13 @@ color black=#000000;
 //
 void setup() {
   //fullScreen();
-  size(1200, 1100);
+  size(1320, 1210);
   appWidth = width*21/20;
   appHeight = height*21/20;
-  displayWidth = appWidth*3/2;
-  displayHeight = appHeight*3/2;
-  if ( width >= 1200*11/10 || height >= 1100*11/10 ) {
+  displayWidth = appWidth;
+  displayHeight = appHeight;
+  if ( width == 1320 || height == 1210 ) {
     draw();
-    size(1200, 1100); 
   } else {
     println("Display is nonexistent");
     exit();
