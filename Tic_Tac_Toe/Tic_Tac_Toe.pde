@@ -11,6 +11,9 @@ void setup() {
   appHeight = height*21/20;
   displayWidth = appWidth;
   displayHeight = appHeight;
+  println("What is bigger? DisplayWidth or width:", displayWidth, width);
+  println("What is bigger? DisplayHeight or height:", displayHeight, height);
+  println("what is the geometery for a Square Orientation?");
   if ( width == 1320 || height == 1210 ) {
     draw();
   } else if ( width >= 1320 || height >= 1210 ) {
@@ -20,6 +23,8 @@ void setup() {
     println("Display is nonexistent");
     exit();
   }
+  //
+  display();
   //
   drawQuitButton();
   drawTicTacToe();
