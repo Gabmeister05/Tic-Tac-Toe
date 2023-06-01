@@ -80,7 +80,7 @@ void display() {
   println(width, height, displayWidth, displayHeight);
   appWidth = width; //Reminder: ensure Global Variable once DISPLAY() is function
   appHeight = height;
-  String ls="Landscape", p="portrait", DO="Display Orientation", instruct="Bru, turn your phun";
+  String ls="Landscape", p="portrait", instruct="Bru, turn your phun";
   String orientation = ( appWidth >= appHeight ) ? ls : p ; // Ternary Operator, repeats IF-ELSE Structure
   //Simply break APP, develop algorithm to fix app even if user makes a mistake
   if ( orientation==ls ) { 
