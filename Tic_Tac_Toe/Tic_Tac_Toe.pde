@@ -16,7 +16,7 @@ void setup() {
   println("what is the geometery for a Square Orientation?");
   if ( width == 1320 || height == 1210 ) {
     draw();
-  } else if ( width > 1320 || height > 1210 ) {
+  } else if ( width < 1320 || height < 1210 ) {
     println("Display is nonexistent");
     exit();
   } else {
