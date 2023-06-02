@@ -55,9 +55,12 @@ void drawQuitButton() {
 } //End quitButton
 //
 void xPlace() {
+  line();
+  line();
 } //End xPlace
 //
 void oPlace() {
+  circle();
 } //End oPlace
 //
 void drawTicTacToe() {
