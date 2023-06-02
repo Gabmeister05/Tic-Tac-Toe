@@ -54,6 +54,12 @@ void drawQuitButton() {
   //
 } //End quitButton
 //
+void xPlace() {
+} //End xPlace
+//
+void oPlace() {
+} //End oPlace
+//
 void drawTicTacToe() {
   //
   line(X1, Y1, X2, Y2);
@@ -85,7 +91,7 @@ void display() {
   String ls="Landscape", p="portrait", instruct="Bru, turn your phun";
   String orientation = ( appWidth >= appHeight ) ? ls : p ; // Ternary Operator, repeats IF-ELSE Structure
   //Simply break APP, develop algorithm to fix app even if user makes a mistake
-  if ( orientation==ls ) { 
+  if ( orientation==ls ) {
     println("Good to Go");
   } else { //Break our app if not landscape
     println(instruct); //Should be to the CANVAS
