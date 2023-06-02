@@ -66,12 +66,14 @@ void drawTicTacToe() {
   } else {
     fill(yellow);
   }
+  if ( xPlaceTrue==true || oPlaceTrue==false ) xPlace();
   //
   if ( xPlaceTrue==false || oPlaceTrue==true ) {
     fill(yellow);
   } else {
     fill(purple);
   }
+  if ( xPlaceTrue==false || oPlaceTrue==true ) oPlace();
   //
 } //End tictactoe
 //
