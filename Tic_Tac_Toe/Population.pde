@@ -7,6 +7,10 @@ float centerY = appHeight * 1/2;
 float X1, Y1, X2, Y2, X3, Y3, X4, Y4;
 float X5, Y5, X6, Y6, X7, Y7, X8, Y8;
 //
+float xplaceX1, xplaceY1, xplaceX2, xplaceY2;
+float xplaceX3, xplaceY3, xplaceX4, xplaceY4;
+float oplaceX, oplaceY, oplaceExtent;
+//
 void Population() {
   //
   quitButtonX = centerX - ( appWidth * 1/10 );
@@ -55,12 +59,12 @@ void drawQuitButton() {
 } //End quitButton
 //
 void xPlace() {
-  line();
-  line();
+  line(xplaceX1, xplaceY1, xplaceX2, xplaceY2);
+  line(xplaceX3, xplaceY3, xplaceX4, xplaceY4);
 } //End xPlace
 //
 void oPlace() {
-  circle();
+  circle(oplaceX, oplaceY, oplaceExtent);
 } //End oPlace
 //
 void drawTicTacToe() {
