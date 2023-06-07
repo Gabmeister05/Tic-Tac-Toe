@@ -10,6 +10,9 @@ void sizeSetup() {
   sizeHeight = displayHeight * 1/2;
 } //End sizeSetup
 //
+void sizeDraw() {
+} //End sizeDraw
+//
 float sizeCalculator(float size, float appWidth) {
   size(660, 605);
   while ( sizeWidth(size) > appWidth ) {
