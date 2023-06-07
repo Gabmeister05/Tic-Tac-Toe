@@ -1,6 +1,7 @@
 //Global Variables
 PShape square;
 float sizeX, sizeY, sizeWidth, sizeHeight;
+float square.rect;
 //
 void sizeSetup() {
   square = createShape(RECT, sizeX, sizeY, sizeWidth, sizeHeight);
@@ -12,7 +13,7 @@ void sizeSetup() {
 //
 void sizeDraw(PShape shape, float height, float sizeX, float sizeY, float sizeWidth, float sizeHeight) {
   float shapeSize = height;
-  if () {
+  if (square.rect >= 660 || square.rect >= 605) {
     shapeSize = sizeCalculator(height, appWidth);
   } else {
     shapeSize = shapeSize * 0.10;
