@@ -26,6 +26,8 @@ void setup() {
   }
   //
   display();
+  sizeSetup();
+  sizeDraw();
   //
   drawQuitButton();
   drawTicTacToe();
