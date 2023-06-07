@@ -1,9 +1,11 @@
 //Global Variables
 PShape square;
-float sizeX, sizeY sizeWidth, sizeHeight;
+float sizeX, sizeY, sizeWidth, sizeHeight;
 //
 void sizeSetup() {
-  square = rect(sizeX, sizeY, sizeWidth, sizeHeight);
+  square = createShape(RECT, sizeX, sizeY, sizeWidth, sizeHeight);
+  sizeX = appWidth*19/20;
+  sizeY = sizeX;
   sizeWidth = displayWidth * 1/2;
   sizeHeight = displayHeight * 1/2;
 } //End sizeSetup
