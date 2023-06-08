@@ -13,6 +13,9 @@ float oplaceX, oplaceY, oplaceExtent;
 //
 void Population() {
   //
+  print("Confirming Center X:", centerX);
+  println("\t Confirming Center Y:", centerY);
+  //
   quitButtonX = centerX - ( appWidth * 1/10 );
   quitButtonY = centerY - ( appHeight * 1/8 );
   quitButtonWidth = appWidth * 1/6;
