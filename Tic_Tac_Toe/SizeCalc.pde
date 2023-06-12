@@ -1,7 +1,7 @@
 //Global Variables
 PShape square;
 float sizeX, sizeY, sizeWidth, sizeHeight;
-float rectangle.square;
+PShape rectangle.square;
 //
 void sizeSetup() {
   square = createShape(RECT, sizeX, sizeY, sizeWidth, sizeHeight);
@@ -9,6 +9,7 @@ void sizeSetup() {
   sizeY = sizeX;
   sizeWidth = displayWidth * 1/2;
   sizeHeight = displayHeight * 1/2;
+  rectangle.square = square;
 } //End sizeSetup
 //
 void sizeDraw(PShape shape, float height, float sizeX, float sizeY, float sizeWidth, float sizeHeight) {
