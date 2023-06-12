@@ -27,7 +27,6 @@ void setup() {
   //
   display();
   sizeSetup();
-  sizeDraw();
   //
   drawQuitButton();
   drawTicTacToe();
@@ -54,6 +53,8 @@ void draw() {
   println(mouseX, mouseY);
   drawQuitButton();
   drawTicTacToe();
+  rect(sizeX, sizeY, sizeWidth, sizeHeight);
+  sizeDraw(square, height, sizeX, sizeY, sizeWidth, sizeHeight);
 } //End draw
 //
 void keyPressed() {
