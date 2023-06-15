@@ -1,4 +1,5 @@
 //Global Variables
+//
 void setup()
 {
   size(600, 600); //fullScreen(); //displayWidth, displayHeight
@@ -26,7 +27,7 @@ void setup()
     noDraw[i] = false;
   }
 }
-
+//
 }//End Setup
 //
 void draw() {
