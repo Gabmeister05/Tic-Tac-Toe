@@ -111,21 +111,20 @@ void xoButtonDrawMouseClicked() {
 
   //To Test Each Button, use the following code
   //Intended to increase counter of xWins or oWins
-  
-  fill(255);
-   noStroke();
-   //Use dimensions of the individual rectangles from GUI Design
-   rect(width*1/24, height*7/24, width*6/24, height*4/24); //Square in #1
-   rect(width*9/24, height*7/24, width*6/24, height*4/24); //Square in #2
-   rect(width*17/24, height*7/24, width*6/24, height*4/24); //Square in #3
-   rect(width*1/24, height*13/24, width*6/24, height*4/24); //Square in #4
-   rect(width*9/24, height*13/24, width*6/24, height*4/24); //Square in #5
-   rect(width*17/24, height*13/24, width*6/24, height*4/24); //Square in #6
-   rect(width*1/24, height*19/24, width*6/24, height*4/24); //Square in #7
-   rect(width*9/24, height*19/24, width*6/24, height*4/24); //Square in #8
-   rect(width*17/24, height*19/24, width*6/24, height*4/24); //Square in #9
-   stroke(1);
-   xWin+=1;
+  //fill(255);
+  //noStroke();
+  //Use dimensions of the individual rectangles from GUI Design
+  //rect(width*1/24, height*7/24, width*6/24, height*4/24); //Square in #1
+  //rect(width*9/24, height*7/24, width*6/24, height*4/24); //Square in #2
+  //rect(width*17/24, height*7/24, width*6/24, height*4/24); //Square in #3
+  //rect(width*1/24, height*13/24, width*6/24, height*4/24); //Square in #4
+  //rect(width*9/24, height*13/24, width*6/24, height*4/24); //Square in #5
+  //rect(width*17/24, height*13/24, width*6/24, height*4/24); //Square in #6
+  //rect(width*1/24, height*19/24, width*6/24, height*4/24); //Square in #7
+  //rect(width*9/24, height*19/24, width*6/24, height*4/24); //Square in #8
+  //rect(width*17/24, height*19/24, width*6/24, height*4/24); //Square in #9
+  //stroke(1);
+  //xWin+=1;
    
 
   if (noDraw[0] == false && mouseX>width*1/24 && mouseX<width*7/24 && mouseY>height*7/24 && mouseY<height*11/24) { //#1
