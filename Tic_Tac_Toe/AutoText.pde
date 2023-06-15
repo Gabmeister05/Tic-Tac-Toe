@@ -40,3 +40,4 @@ float textCalculator(float size, String string, float rectWidth) {
   }
   return size; //Purpose of Calculator
 }//End AutoText 
+//End SubProgram
