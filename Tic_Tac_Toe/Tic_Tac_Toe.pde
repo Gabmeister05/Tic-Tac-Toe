@@ -26,8 +26,6 @@ void setup()
   for (int i=0; i < noDraw.length; i++) { //Needs to run, not placed in any setup procedure yet
     noDraw[i] = false;
   }
-}
-//
 }//End Setup
 //
 void draw() {
