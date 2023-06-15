@@ -2,7 +2,7 @@
 //
 void setup()
 {
-  size(600, 600); //fullScreen(); //displayWidth, displayHeight
+  size(800, 800); //fullScreen(); //displayWidth, displayHeight
   //Code evaluates if the WINDOW Size will be able to be displayed, reduce by percentage if "NO"
   //Code inspects geometry, what is the shorter side, always displays board right side up
   println("What is bigger? DisplayWidth or width:", displayWidth, width);

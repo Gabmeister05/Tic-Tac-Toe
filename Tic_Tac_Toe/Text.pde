@@ -1,6 +1,6 @@
 //Global Variables
 PFont levelFont, xoFont, playerFont, scoreFont;
-String easy = "Easy", medium = "Medium", master = "Master", reset = "Reset", title = "Tik Tac Toe", x = "X", o = "O";
+String easy = "Easy", medium = "Medium", master = "Master", reset = "Reset", title = "Tic Tac Toe", x = "X", o = "O";
 int xWin = 0, oWin = 0, count = 0, position = 0;
 Boolean[] noDraw = new Boolean[9]; //Turn off ablity to draw an X or an O in a sqaure of the board
 color green = #00FF1F;
@@ -111,13 +111,13 @@ void xoButtonDrawMouseClicked() {
 
   //To Test Each Button, use the following code
   //Intended to increase counter of xWins or oWins
-  /*
+  
   fill(255);
    noStroke();
-   rect(); //Use dimensions of the individual rectangles from GUI Design
+   //rect(); //Use dimensions of the individual rectangles from GUI Design
    stroke(1);
    xWin+=1;
-   */
+   
 
   if (noDraw[0] == false && mouseX>width*1/24 && mouseX<width*7/24 && mouseY>height*7/24 && mouseY<height*11/24) { //#1
     position = 1;
