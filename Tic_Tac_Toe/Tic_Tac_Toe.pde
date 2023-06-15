@@ -1,67 +1,23 @@
 //Global Variables
-Boolean xPlaceTrue=false, oPlaceTrue=false;
-float displayWidth=0, displayHeight=0;
-float appWidth=0, appHeight=0;
-color black=#000000;
-//
-void setup() {
-  //fullScreen();
-  size(1320, 1210);
-  appWidth = width*21/20;
-  appHeight = height*21/20;
-  displayWidth = appWidth;
-  displayHeight = appHeight;
+void setup()
+{
+  size(600, 600); //fullScreen(); //displayWidth, displayHeight
+  //Code evaluates if the WINDOW Size will be able to be displayed, reduce by percentage if "NO"
+  //Code inspects geometry, what is the shorter side, always displays board right side up
   println("What is bigger? DisplayWidth or width:", displayWidth, width);
   println("What is bigger? DisplayHeight or height:", displayHeight, height);
   println("what is the geometery for a Square Orientation?");
-  if ( width == 1320 || height == 1210 ) {
-    println("Display is acceptable");
-    draw();
-  } else if ( width < 1320 || height < 1210 ) {
-    println("Display is nonexistent");
-    exit();
-  } else {
-    println("Display is nonexistent");
-    exit();
-  }
+  //Code creates Square Geometry
+  //Thus, phone can be either orientation, still able to play Tic Tac Toe
+  //Algorithm saves user from themselves, always displays CANVAS
+  display(); //Square manditory
   //
-  display();
-  sizeSetup();
-  //
-  drawQuitButton();
-  drawTicTacToe();
-  //
-  Population();
-  println (width, height, displayWidth, displayHeight);
-  if ( width >= displayWidth || height >= displayHeight )
-  {
-    displayWidth = 0.0;
-    displayHeight = 0.0;
-    println("Display is too small for App");
-    exit();
-  } else
-  {
-    displayWidth = appWidth;
-    displayHeight = appHeight;
-  }
-  println("App Geometry is", "\tDisplay Width:", displayWidth, "\t\tDisplay Height", displayHeight);
-  //
-} //End setup
+}//End Setup
 //
-void draw() {
-  background(black);
-  println(mouseX, mouseY);
-  drawQuitButton();
-  drawTicTacToe();
-  rect(sizeX, sizeY, sizeWidth, sizeHeight);
-  sizeDraw(square, height, sizeX, sizeY, sizeWidth, sizeHeight);
-} //End draw
+void draw() {}//End draw
 //
-void keyPressed() {
-} //End keyPressed
+void mousePressed() {}//End mousePressed
 //
-void mousePressed() {
-  if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
-} //End mousePressed
+void keyPressed() {}//End keyPressed
 //
 //End MAIN Program
